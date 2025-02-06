@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f5f0eb; /* Fondo marrón muy claro */
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-brown-800 hover:bg-brown-900 text-white font-medium px-6 py-3 rounded-lg transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+
+  .feature-icon {
+    @apply w-6 h-6 text-brown-800;
+  }
+
+  .section-title {
+    @apply text-4xl font-bold text-brown-900 mb-8 text-center;
+  }
+}
