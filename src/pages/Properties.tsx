@@ -235,7 +235,7 @@ export const Footer: React.FC = () => {
             <div className="flex items-center gap-2 mb-2">
               <Phone size={24} />
               <span className="text-base font-medium text-gray-900">
-                Línea fija de atención al cliente: 7018102
+                Línea fija de atención al cliente: 01 7018102
               </span>
             </div>
             <div className="flex items-center gap-2">
