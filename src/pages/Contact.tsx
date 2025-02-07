@@ -79,7 +79,7 @@ const Contact = () => {
                 <Phone className="w-6 h-6 text-[#876b45] mr-4" />
                 <div>
                   <p className="font-semibold text-gray-900">Teléfono</p>
-                  <p className="text-gray-600">+51 923 964 258</p>
+                  <p className="text-gray-600">+51 936 298 069</p>
                 </div>
               </div>
               <div className="flex items-center">
