@@ -183,7 +183,7 @@ export const properties = [
     price: 750,
     capacity: 15,
     bedrooms: 7,
-    mainImage: '/7/112.jpeg',
+    mainImage: '/7/114.jpeg',
     features: [
       "5 HABITACIÓN MATRIMONIAL, 2 HABITACIONES CON 2 CAMAROTES, CADA HABITACION TIENE UNA CAMA DE 2 1/2 PLAZAS, LA CASA ESTA AMOBLADA, PISCINA EN BUEN ESTADO FRENTE AL MAR, ESTACIONAMIENTO PARA 06 CARROS, PISCINA, CAPACIDAD PARA 15 PERSONAS"
     ],
