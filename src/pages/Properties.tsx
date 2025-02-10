@@ -174,6 +174,35 @@ export const properties = [
     },
     mapUrl:
       "https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d10880.644198444554!2d-81.1354444!3d-4.1796667!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d-4.179666699999999!2d-81.1354444!5e1!3m2!1ses-419!2spe!4v1738791064869!5m2!1ses-419!2spe"
+  },
+  // Nueva propiedad: CASA COLAN 1
+  {
+    id: 'casa-7',
+    name: 'Casa Colan 1',
+    location: 'Colan, Piura',
+    price: 750,
+    capacity: 15,
+    bedrooms: 7,
+    mainImage: '/7/112.jpeg',
+    features: [
+      "5 HABITACIÓN MATRIMONIAL, 2 HABITACIONES CON 2 CAMAROTES, CADA HABITACION TIENE UNA CAMA DE 2 1/2 PLAZAS, LA CASA ESTA AMOBLADA, PISCINA EN BUEN ESTADO FRENTE AL MAR, ESTACIONAMIENTO PARA 06 CARROS, PISCINA, CAPACIDAD PARA 15 PERSONAS"
+    ],
+    description:
+      "Casa Colan 1 se encuentra a orillas de la playa, ofreciendo amplios espacios, piscina en excelente estado y estacionamiento para 06 carros.",
+    images: Array.from({ length: 19 }, (_, i) => `/7/${112 + i}.jpeg`),
+    characteristics: [
+      { icon: 'cocina', name: 'Cocina equipada y menaje' },
+      { icon: 'piscina', name: 'Piscina' },
+      { icon: 'wifi', name: 'Wifi' },
+      { icon: 'estacionamiento', name: 'Estacionamiento' },
+      { icon: 'vistaAlMar', name: 'Vista al mar' }
+    ],
+    additionalInfo: {
+      minStay: '1 noche',
+      priceNote: 'El costo y mínimo de noches pueden cambiar en fechas especiales.'
+    },
+    mapUrl:
+      "https://www.google.com/maps/embed?pb=!4v1739215656894!6m8!1m7!1sEnwQcf8MHgAlc38vI9ZeoA!2m2!1d-5.020419238559612!2d-81.0624107836852!3f286.79!4f-19.86!5f0.7820865974627469"
   }
 ];
 
