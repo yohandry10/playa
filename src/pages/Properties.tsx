@@ -17,7 +17,6 @@ export const properties = [
     ],
     description: "Hermosa propiedad con todas las comodidades.",
     images: Array.from({ length: 16 }, (_, i) => `/1/${i + 1}.jpeg`),
-    // Aunque aquí se definen _characteristics_, en el detalle se usará el arreglo fijo
     characteristics: [
       { icon: 'cocina', name: 'Cocina equipada y menaje' },
       { icon: 'piscina', name: 'Piscina' },
@@ -297,6 +296,12 @@ export const Footer: React.FC = () => {
           </div>
         </div>
       </div>
+      {/* Texto añadido: By Yohandry Chirinos Programador Web Fullstack */}
+      <p className="text-center mt-8 text-white text-sm">
+        <a href="mailto:yohandrychirinos1@gmail.com" className="hover:underline">
+          By Yohandry Chirinos Programador Web Fullstack
+        </a>
+      </p>
       <style>{`
         .fade-in {
           animation: fadeIn 1s ease-in-out forwards;
