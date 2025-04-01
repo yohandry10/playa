@@ -202,6 +202,59 @@ export const properties = [
     },
     mapUrl:
       "https://www.google.com/maps/embed?pb=!4v1739215656894!6m8!1m7!1sEnwQcf8MHgAlc38vI9ZeoA!2m2!1d-5.020419238559612!2d-81.0624107836852!3f286.79!4f-19.86!5f0.7820865974627469"
+  },
+  {
+    id: 'casa-8',
+    name: 'Casa de Playa en Punta Hermosa',
+    location: 'Punta Hermosa - Playa Señoritas',
+    price: 629,
+    capacity: 14,
+    bedrooms: 4,
+    mainImage: '/c8.jpeg',
+    features: [
+      "4 habitaciones (cama de 2 plazas y media + 1 camarote)"
+    ],
+    description: "Disfrute de una estadía exclusiva en una casa moderna con todas las comodidades para una experiencia inigualable.",
+    images: Array.from({ length: 12 }, (_, i) => `/c${i + 1}.jpeg`),
+    characteristics: [
+      { icon: 'cocina', name: 'Cocina completamente equipada' },
+      { icon: 'piscina', name: 'Piscina privada con acceso total' },
+      { icon: 'vistaAlMar', name: 'Vista al mar' },
+      { icon: 'estacionamiento', name: 'Estacionamiento privado' },
+      { icon: 'salaTv', name: 'Sala moderna' }
+    ],
+    additionalInfo: {
+      minStay: '1 noche',
+      priceNote: 'El costo y mínimo de noches pueden cambiar en fechas especiales.'
+    },
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.829584356655!2d-76.82332492394567!3d-12.33445774729784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91059bd13d57e0f7%3A0x8463ad65c56a3e27!2sPunta%20Hermosa%20Beach!5e0!3m2!1ses!2spe!4v1709595606099!5m2!1ses!2spe"
+  },
+  {
+    id: 'casa-9',
+    name: 'Punta Hermosa 2',
+    location: 'Punta Hermosa - Playa Señorita',
+    price: 500,
+    capacity: 10,
+    bedrooms: 3,
+    mainImage: '/c14.jpeg',
+    features: [
+      "3 habitaciones completamente equipadas",
+      "2 baños completos",
+      "Capacidad máxima: 8-10 personas"
+    ],
+    description: "Hermoso departamento totalmente amoblado con piscina privada y zona de parrilla.",
+    images: Array.from({ length: 12 }, (_, i) => `/c${i + 13}.jpeg`),
+    characteristics: [
+      { icon: 'piscina', name: 'Piscina privada' },
+      { icon: 'parrilla', name: 'Zona de parrilla' },
+      { icon: 'pet', name: 'Pet Friendly' },
+      { icon: 'cocina', name: 'Departamento amoblado' }
+    ],
+    additionalInfo: {
+      minStay: '1 noche',
+      priceNote: 'El costo y mínimo de noches pueden cambiar en fechas especiales.'
+    },
+    mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.829584356655!2d-76.82332492394567!3d-12.33445774729784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91059bd13d57e0f7%3A0x8463ad65c56a3e27!2sPunta%20Hermosa%20Beach!5e0!3m2!1ses!2spe!4v1709595806099!5m2!1ses!2spe"
   }
 ];
 

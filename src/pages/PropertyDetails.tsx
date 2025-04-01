@@ -47,6 +47,11 @@ const PropertyDetails: React.FC = () => {
     showConfetti: false
   });
 
+  // Scroll al inicio cuando el componente se monta
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   if (!property) {
     return (
       <div
